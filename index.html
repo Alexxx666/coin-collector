@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    
+    <title>Coin Collector - The Game</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+        
+    <h1>Coin Collector</h1>
+
+    <canvas id="gameField" width="1024" height="500"></canvas>
+
+    <div class="column">
+        <h3>Build a factory (10 coins)</h3>
+        <img src="img/factory.png" onclick="buildFactory()">
+    </div>
+    <div class="column">
+        <h3>Build a plant (20 coins)</h3>
+        <img src="img/plant.png" onclick="buildPlant()">
+    </div>
+    <div class="column">
+        <h3>Your coins:</h3>
+        <p id="coins_amount">0</p>
+    </div>
+
+    <div class="clearfix"></div>
+    
+    <script src="js/script.js">       
+    </script>
+
+</body>
+
+</html>

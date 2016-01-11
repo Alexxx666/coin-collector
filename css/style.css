@@ -1,0 +1,53 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1024px;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+}
+
+canvas {
+    background-image: url(../img/dirt.jpg);
+    display: block;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    margin: 10px 0 10px 10px;
+}
+
+.column {
+    width: 33.333333%;
+    float: left;
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+    height: 150px;
+}
+
+img {
+    display: block;
+    margin-left: 10px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+#coins_amount {
+    margin: 10px 0 0 10px;
+    font-size: 60px;
+    color: yellow;
+}
+
+.clearfix {
+    clear: both;
+}
